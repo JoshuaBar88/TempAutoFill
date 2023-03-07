@@ -1,0 +1,53 @@
+<html>
+    <script type="text/javascript" src="popup.js"></script>
+    <link rel="stylesheet" href="popup.css">
+    <body>
+      <header>
+          <h3>Rando Filler</h3>
+      </header>
+      <div id="settings-wrapper">
+				<button id="save">Not Saved</button>
+			</div>
+      <span>Name: </span>
+      <div id="label">
+        <input type="text" id="name">
+        <img onclick='copyValue()'id="copy" src="/assets/copy.png" />
+      </div>
+      <span>Email: </span>
+      <div id="label">
+        <input type="text" id="email">
+        <img onclick='copyValue()'id="copy" src="/assets/copy.png" />
+      </div>
+      <span>Tele: </span>
+      <div id="label">
+      <input type="text" id="tele">
+      <img onclick='copyValue()'id="copy" src="/assets/copy.png" />
+      </div>
+      <span>Address: </span>
+      <div id="label">
+      <input type="text" id="address">
+      <img onclick='copyValue()'id="copy" src="/assets/copy.png" />
+      </div>
+      <span>City: </span>
+      <div id="label">
+      <input type="text" id="city">
+      <img onclick='copyValue()'id="copy" src="/assets/copy.png" />
+      </div>
+      <span>ZipCode: </span>
+      <div id="label">
+      <input type="text" id="zipcode">
+      <img onclick='copyValue()'id="copy" src="/assets/copy.png" />
+      </div>
+      <button id="auto-fill">Populate</button>
+      <button id="showEmail">All Emails</button>
+      <button id="showText">All Messages</button>
+      <div style="padding-bottom: 30px;">
+        <form action="oneEmail.html">
+          <button style="float:right" id="recentEmail">&#8594</button>
+        </form>
+        <form action="oneMessage.html">
+          <button style="float:left" id="recentMessage">&#8592</button>
+        </form>
+      </div>
+    </body>
+</html>

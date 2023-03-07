@@ -1,0 +1,28 @@
+div#label {
+  position: relative;
+  padding: 3px;
+}
+body {
+  width: 300px;
+  height: 350px;
+}
+#settings {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+}
+#copy {
+  width: 6%;
+  height: inherit;
+  position: absolute;
+  padding-left: 3px;
+  cursor: pointer;
+}
+input {
+  width: 80%;
+}
+#save {
+  border: none;
+  color: white;
+}
+
